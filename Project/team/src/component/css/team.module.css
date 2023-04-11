@@ -1,0 +1,336 @@
+.Container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url(../../img/background.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+}
+.texts {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.form-control {
+  width: 100px;
+}
+.inputCont {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+input {
+  width: 316px;
+  height: 56px;
+  padding-left: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+}
+.ContainerSecond {
+  width: 100vw;
+  height: 80vh;
+  padding-top: 10%;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 500ms;
+}
+
+.dark {
+  background-color: black;
+  transition: 500ms;
+}
+.textWhite {
+  color: white;
+}
+.textDefault {
+  color: #182d40;
+}
+.inner2Container {
+  margin-left: 11%;
+  width: 30%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.titleSecond {
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.textSecond {
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  line-height: 1.7;
+}
+.bottomCont {
+  gap: 50px;
+}
+.bottomSecond {
+  color: #4da0fd;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.buttonCont {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.arrow {
+  font-weight: bold;
+  color: #4da0fd;
+}
+.imgCont {
+  position: relative;
+}
+.teamhubImg {
+  width: 1179px;
+  height: 705px;
+}
+.miniCardImg {
+  position: absolute;
+  top: 9.3%;
+  left: 12%;
+}
+
+.inner3Container {
+  width: 30%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.maskImg {
+  width: 658px;
+  height: 600px;
+}
+.imgCont2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.botTitle {
+  font-size: 60px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+}
+
+.titleCont {
+  display: flex;
+  justify-content: center;
+}
+.ContainerBottom {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cardCont {
+  overflow: hidden;
+  display: flex;
+  width: 100vw;
+  padding-left: 20%;
+  padding-top: 3%;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 5%;
+}
+.footerCont {
+  width: 100vw;
+  height: 27vw;
+  background-color: #182d40;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialCont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logo {
+  width: 100px;
+}
+.textCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60%;
+}
+.textDiv {
+  gap: 10px;
+}
+.icons {
+  font-size: 30px;
+  color: white;
+}
+.footerText {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  color: white;
+}
+
+/* Media querry */
+
+@media only screen and (max-width: 1300px) {
+  .inner2Container {
+    width: 100%;
+    margin-left: 100px;
+  }
+  .teamhubImg {
+    width: 600px;
+  }
+  .miniCardImg {
+    position: absolute;
+    top: 9.3%;
+    left: 0%;
+  }
+  .inner3Container {
+    width: 40%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .inner3Container {
+    width: 30%;
+  }
+  .titleSecond {
+    font-size: 38px;
+  }
+  .textSecond {
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 40px;
+  }
+  .inner3Container {
+    width: 40%;
+    margin-left: 1%;
+  }
+  .titleSecond {
+    font-size: 35px;
+  }
+  .textSecond {
+    font-size: 16px;
+  }
+  .ContainerSecond {
+    justify-content: center;
+  }
+  .teamhubImg {
+    width: 400px;
+  }
+  .miniCardImg {
+    width: 250px;
+    top: 20%;
+  }
+  .maskImg {
+    width: 450px;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 35px;
+  }
+  .texts {
+    font-size: 17px;
+  }
+  input {
+    width: 300px;
+    height: 50px;
+  }
+  .button {
+    height: 50px;
+  }
+  .inner2Container {
+    margin-left: 10%;
+    width: 70%;
+  }
+  .ContainerSecond {
+    justify-content: flex-start;
+  }
+  .teamhubImg {
+    width: 400px;
+  }
+  .maskImg {
+    width: 300px;
+  }
+  .textSecond {
+    font-size: 18px;
+  }
+  .inner3Container {
+    width: 40%;
+    margin-left: 15%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .inner3Container {
+    width: 40%;
+    margin-left: 5%;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .Container {
+    width: 100%;
+  }
+  .innerContainer {
+    padding-left: 5%;
+  }
+  .inner3Container {
+    width: 80%;
+    padding-left: 5%;
+  }
+  input {
+    width: 25 0px;
+    height: 45px;
+    font-size: 13px;
+  }
+  .button {
+    height: 45px;
+    font-size: 13px;
+  }
+  .imgCont {
+    display: none;
+  }
+  .maskImg {
+    display: none;
+  }
+  .botTitle {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,48 @@
+body {
+  padding-bottom: 200px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+.contDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+.boxCont {
+  width: 700px;
+  gap: 4px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: Bold;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  /* border: 1px solid red; */
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.insert {
+  background-color: red;
+}
+
+.done {
+  /* display: none; */
+  background-color: green;
+}

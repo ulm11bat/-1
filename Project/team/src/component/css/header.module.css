@@ -1,0 +1,148 @@
+.hContainer {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 500ms;
+  z-index: 10;
+}
+
+.hContainerBg {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #101820ff;
+  padding-bottom: 13px;
+  transition: 500ms;
+  z-index: 10;
+}
+
+.textsContainer {
+  display: flex;
+  gap: 30px;
+  padding-top: 15px;
+  align-items: center;
+}
+/* .img {
+  vertical-align: top;
+} */
+.texts {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  text-decoration: gray underline;
+  color: white;
+}
+.change {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  text-decoration: gray underline;
+  color: #6d7d8b;
+}
+.getButton {
+  width: 128px;
+  height: 56px;
+  opacity: 50%;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+
+.changeButton {
+  width: 128px;
+  height: 56px;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  color: blue;
+  background: #4da0fd;
+  opacity: 42%;
+  /* margin-top: 6px; */
+  border-radius: 6px;
+  border: 1px solid blue;
+}
+
+.getButton:hover {
+  opacity: 100%;
+}
+.changeButton:hover {
+  opacity: 80%;
+}
+.Form {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+}
+.bar3 {
+  font-size: 35px;
+  color: white;
+  display: none;
+}
+.barChange {
+  color: #6d7d8b;
+}
+.darkIcon {
+  font-size: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .hContainer {
+    width: 100%;
+  }
+  .hContainerBg {
+    width: 100%;
+  }
+  .texts {
+    font-size: 16px;
+  }
+  .textsContainer {
+    gap: 15px;
+  }
+  .getButton {
+    width: 100px;
+    height: 49px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hContainer {
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 40px;
+  }
+  .hContainerBg {
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  .textsContainer {
+    display: none;
+  }
+  .bar3 {
+    display: flex;
+    margin-top: 10px;
+  }
+  .img {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .bar3 {
+    font-size: 30px;
+    margin-top: 12px;
+  }
+  .img {
+    width: 85px;
+  }
+}
